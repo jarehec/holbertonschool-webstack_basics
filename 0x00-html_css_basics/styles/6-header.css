@@ -1,0 +1,98 @@
+header {
+    background-color: #D32323;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+    max-width: 1000px;
+    padding: 0;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    list-style-type: none;
+    transform: translate(-50%, -50%);
+}
+
+.container li.logo {
+    background-image: url("../images/logo.jpg");
+    background-size: 100%;
+    height: 100%;
+    width: 120px;
+}
+
+.container li.logo a {
+    width: 100%;
+    height: 100%;
+}
+
+.container li.search {
+    display: inline-flex;
+    background-color: #FEFEFE;
+    position: absolute;
+    border: #CCCCCC solid 1px;
+    border-radius: 4px;
+    height: 40px;
+    left: 140px;
+    right: 220px;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.container li.user {
+    height: 100%;
+    width: 200px;
+}
+
+.container li.search div.find {
+    display: inline-flex;
+    height: 100%;
+    width: 45%;
+}
+
+.find label, .location label{
+    padding: 0 10px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.location label {
+    border-left: #CCCCCC solid 1px;
+}
+
+.find input#search_find, .location input#search_location {
+    padding: 0 10px;
+    border: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.container li.search div.location {
+    display: inline-flex;
+    height: 100%;
+    width: 45%;
+}
+
+.container li.search div.action {
+    height: 100%;
+    width: 10%;
+    border-radius: 4px;
+}
+
+.search div.action button#search_submit {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    color: #FFFFFF;
+    background-color: #FF0000;
+}
