@@ -1,0 +1,19 @@
+div.content {
+    display: grid;
+    justify-content: center;
+    overflow: auto;
+    grid-template-columns: auto auto auto;
+    width: -webkit-fill-available;
+    max-width: 1000px;
+    background-color: #FFFFFF;
+}
+
+div.content article {
+    width: 300px;
+    background-color: #FFFFFF;
+    position: relative;
+    min-height: 110px;
+    margin: 10px;
+    border: #CCCCCC solid 1px;
+    border-radius: 10px;
+}
