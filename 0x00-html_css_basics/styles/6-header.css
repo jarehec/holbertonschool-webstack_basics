@@ -70,7 +70,7 @@ header {
     border-left: #CCCCCC solid 1px;
 }
 
-.find input#search_find, .location input#search_location {
+.find input, .location input {
     padding: 0 10px;
     border: 0;
     width: 100%;
@@ -89,7 +89,7 @@ header {
     border-radius: 4px;
 }
 
-.search div.action button#search_submit {
+.search div.action button {
     height: 100%;
     width: 100%;
     border: 0;

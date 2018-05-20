@@ -63,7 +63,7 @@ header {
     line-height: 40px;
 }
 
-.find input#search_find, .location input#search_location {
+.find input, .location input {
     padding: 0 10px;
     border: 0;
     width: 100%;
