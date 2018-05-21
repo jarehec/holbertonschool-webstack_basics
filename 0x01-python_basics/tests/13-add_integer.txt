@@ -1,0 +1,54 @@
+>>> add_integer = __import__('13-add_integer').add_integer
+
+>>> print(add_integer(1, 2))
+3
+>>> print(add_integer(100, -2))
+98
+>>> print(add_integer(100.3, -2))
+98
+
+>>> try:
+...     print(add_integer(4, "School"))
+... except Exception as e:
+...     print(e)
+b must be an integer
+
+>>> print(add_integer("Hello", -1))
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> print(add_integer(None, None))
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> print(add_integer(True, None))
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> print(add_integer(1, True))
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+
+>>> print(add_integer({}, []))
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> print(add_integer(1, {}))
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+
+>>> print(add_integer(1, []))
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+
+>>> print(add_integer([], True))
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
