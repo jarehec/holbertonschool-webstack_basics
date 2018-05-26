@@ -2,10 +2,21 @@
 
 >>> print(add_integer(1, 2))
 3
+
+>>> print(add_integer(-101, -3))
+-104
+
 >>> print(add_integer(100, -2))
 98
+
 >>> print(add_integer(100.3, -2))
 98
+
+>>> print(add_integer(2**2.1, 2))
+6
+
+>>> print(add_integer(-8.0, 8))
+0
 
 >>> try:
 ...     print(add_integer(4, "School"))
