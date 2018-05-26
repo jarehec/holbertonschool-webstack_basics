@@ -9,4 +9,4 @@ def islower(c):
     checks for lowercase character
     @c: single character
     """
-    return c >= 'a' and c <= 'z'
+    return ord(c) >= ord('a') and ord(c) <= ord('z')

@@ -10,6 +10,7 @@ def print_diagonal(n):
     @n: integer:q
     """
     if n <= 0:
-        print('\n')
+        print()
     else:
         [print(' ' * i + '\\') for i in range(n)]
+        print()

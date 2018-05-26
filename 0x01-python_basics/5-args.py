@@ -7,7 +7,7 @@ from sys import argv
 
 if __name__ == '__main__':
     if len(argv) < 2:
-        print('0 argument.')
+        print('0 arguments.')
     else:
         print('{}'.format(len(argv) - 1), end=' ')
         print('{}:'.format('arguments' if len(argv) > 2 else 'argument'))
