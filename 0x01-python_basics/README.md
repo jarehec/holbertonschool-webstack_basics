@@ -17,6 +17,16 @@
 * `13-add_integer.py` - Function that adds 2 integers
 * `14-singly_linked_list.py` - Class `Node` that defines a node of a singly linked list 
 * `15-square.py` - Class Square that defines a square
+* `tests/16-max_integer_test.py` - unittests for max_integer function
+* `100-write.py` - prints a message to stderr
+* `101-print_diagonal.py` - draws a diagonal line on the terminal
+* `102-infinite_add.py` - prints the result of the addition of all arguments
+* `103-new_in_list.py` - replaces an element in a list at a specific position without modifying the original list
+* `104-search_replace.py` - replaces all occurrences of an element by another in a new list
+* `105-best_score.py` - returns a key with the biggest integer value
+* `106-weight_average.py` - returns the weighted average of all integers tuple `(<score>, <weight>)`
+* `107-safe_function.py` - function that executes a function safely
+* `108-square.py` - `15-square.py` with position attribute
 
 ## Authors
 * Jared Heck
