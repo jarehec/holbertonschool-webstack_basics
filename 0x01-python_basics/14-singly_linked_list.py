@@ -45,9 +45,10 @@ class Node:
         setter for next_node attribute
         @next_node: Node object or None
         """
-        if isinstance(value, type(None)) and isinstance(value, type(Node)):
+        if isinstance(value, type(None)) or isinstance(value, type(Node(0))):
+            self.__next_node = value
+        else:
             raise TypeError('next_node must be a Node object')
-        self.__next_node = value
 
 
 class SinglyLinkedList:
