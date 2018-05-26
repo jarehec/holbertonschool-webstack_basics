@@ -45,7 +45,7 @@ class Node:
         setter for next_node attribute
         @next_node: Node object or None
         """
-        if isinstance(value, type(None)) or isinstance(value, type(Node(0))):
+        if value is None or type(value) is Node:
             self.__next_node = value
         else:
             raise TypeError('next_node must be a Node object')
