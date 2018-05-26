@@ -62,6 +62,9 @@ class Square:
         """
         string representation of square
         """
-        print('\n' * self.__position[1], end='')
-        print('\n'.join([' ' * self.__position[0] +
-                         '#' * self.size for i in range(self.size)]))
+        if self.size == 0:
+            print()
+        else:
+            print('\n' * self.__position[1], end='')
+            print('\n'.join([' ' * self.__position[0] +
+                             '#' * self.size for i in range(self.size)]))
